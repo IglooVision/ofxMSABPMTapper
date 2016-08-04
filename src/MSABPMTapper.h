@@ -1,6 +1,7 @@
 #pragma once
 
-#include "MSATimer.h"
+#include "ofxMSATimer.h"
+#include "ofxSimpleTimer.h"
 
 
 namespace msa {
@@ -65,7 +66,7 @@ namespace msa {
 		float	_beatPerc;
 		float	_beatTime;
 		
-		Timer	_timer;
+		ofxMSATimer	_timer;
 		
 	};
 }
